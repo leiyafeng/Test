@@ -24,6 +24,9 @@ public class HelloController {
             System.out.println("stu="+stu.getName());
             System.out.println(12);
             //加了个注释、、、、、、
+            System.out.println(12222);
+
+
         }
         return stu.getName();
     }
