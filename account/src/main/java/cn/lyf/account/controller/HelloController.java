@@ -21,9 +21,8 @@ public class HelloController {
         Student stu = studentService.getStudentById(1);
         //model.addAttribute(stu);
         if(stu !=null){
-
-
             System.out.println("stu="+stu.getName());
+            System.out.println(11);
         }
         return stu.getName();
     }
