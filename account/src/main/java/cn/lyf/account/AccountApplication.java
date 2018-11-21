@@ -10,7 +10,7 @@ import org.springframework.context.annotation.PropertySource;
 public class AccountApplication {
 
 
-
+//加个注释01
 	public static void main(String[] args) {
 		SpringApplication.run(AccountApplication.class, args);
 	}
